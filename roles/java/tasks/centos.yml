@@ -3,7 +3,7 @@
 - name: download jdk
   get_url:
     url: http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.rpm
-    dest: /tmp/jre-8u144-linux-x64.rpm
+    dest: /tmp/jdk-8u144-linux-x64.rpm
     force: no
   tags:
     - java
